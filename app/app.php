@@ -2,7 +2,7 @@
 require 'Controllers/AmortizacionController.php';
 require_once 'Controllers/MasterController.php';
 
-
+//Se toman los datos que envia el JS y se hace el calculo
 $calcular = in_array('calcular', array_keys($_GET));
 
 if($calcular){
