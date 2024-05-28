@@ -2,7 +2,7 @@ const app = {
   form : document.querySelector("#form"),
   resultado : document.querySelector("#tabla_amort"),
 
-  url:"app1/app.php",
+  url:"app/app.php",
   route:"",
 
   tabla : new Array(),
